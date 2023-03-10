@@ -3,10 +3,9 @@ title: "Deploy usando GIT-FTP"
 datePublished: Tue Jun 26 2018 18:57:00 GMT+0000 (Coordinated Universal Time)
 cuid: ckqsggljc0fl0jcs1d9f75ar7
 slug: deploy-usando-git-ftp
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/MAYEkmn7G6E/upload/d6bf961a729b1007baf04287606f07d0.jpeg
 
 ---
-
-![Deploy usando GIT-FTP](https://cdn.hashnode.com/res/hashnode/image/upload/v1625600321387/9jhgVJC_G.jpeg)
 
 Es muy común que cuando nos estamos iniciando en el mundo del desarrollo web y no tenemos dinero para costearnos un buen servicio, optemos por comprar espacio en un ‘Shared host’ o utilizar un hosting gratuito que básicamente funcional igual.
 
@@ -28,11 +27,16 @@ Que belleza y que hermosura fue lo que yo pensé cuando di con esta herramienta,
 
 La instalación es muy sencilla para los que usamos GNU/Linux yo en especial uso Debian es muy sencillo de instalar usando la terminal, para los que usen otro sistema operativo acá les dejo el [Manual de Instalación Oficial](https://github.com/git-ftp/git-ftp/blob/master/INSTALL.md) donde encontraran la instalación para los siguientes Sistemas operativos:
 
-*   Linux/Unix usando make
-*   Debian, Ubuntu y otros usando apt
-*   ArchLinux
-*   Mac OS X
-*   Windows
+* Linux/Unix usando make
+    
+* Debian, Ubuntu y otros usando apt
+    
+* ArchLinux
+    
+* Mac OS X
+    
+* Windows
+    
 
 Para los que usamos Debian o Ubuntu solo debemos teclear esto en la terminal
 
@@ -52,10 +56,12 @@ La configuración es muy sencilla desde nuestro terminal usamos los siguientes c
 
 Ya con esto tendríamos configurada la conexión a nuestro servidor por FTP, solo resta ubicarnos en la carpeta de nuestro proyecto y dependiendo las siguientes 2 opciones ejecutar el comando que sea conveniente:
 
-*   Subir todos los archivos (inicializacion)  
+* Subir todos los archivos (inicializacion)  
     `git ftp init`
-*   Indicar que los archivos ya se encuentran en el servidor.  
+    
+* Indicar que los archivos ya se encuentran en el servidor.  
     `git ftp catchup`
+    
 
 **Haciendo Deploy**
 
