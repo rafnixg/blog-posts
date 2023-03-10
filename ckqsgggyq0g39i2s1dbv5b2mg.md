@@ -3,6 +3,7 @@ title: "🐍 Entornos virtuales en Python usando Pipenv"
 datePublished: Sun May 12 2019 00:39:00 GMT+0000 (Coordinated Universal Time)
 cuid: ckqsgggyq0g39i2s1dbv5b2mg
 slug: entornos-virtuales-en-python-usando-pipenv
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/5uU8HSpfwkI/upload/0acf143138e277fd30eb5845a2ee200b.jpeg
 
 ---
 
