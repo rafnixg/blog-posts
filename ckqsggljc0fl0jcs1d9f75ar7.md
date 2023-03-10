@@ -40,7 +40,9 @@ La instalación es muy sencilla para los que usamos GNU/Linux yo en especial uso
 
 Para los que usamos Debian o Ubuntu solo debemos teclear esto en la terminal
 
-`sudo apt-get install git-ftp`
+```bash
+sudo apt-get install git-ftp
+```
 
 Con esto ya tendríamos Git-FTP instalado
 
@@ -48,11 +50,11 @@ Con esto ya tendríamos Git-FTP instalado
 
 La configuración es muy sencilla desde nuestro terminal usamos los siguientes comandos:
 
-`git config git-ftp.url ftp.example.net`
-
-`git config git-ftp.user ftp-user`
-
-`git config git-ftp.password secr3t`
+```bash
+git config git-ftp.url ftp.example.net
+git config git-ftp.user ftp-user
+git config git-ftp.password secr3t
+```
 
 Ya con esto tendríamos configurada la conexión a nuestro servidor por FTP, solo resta ubicarnos en la carpeta de nuestro proyecto y dependiendo las siguientes 2 opciones ejecutar el comando que sea conveniente:
 
@@ -67,13 +69,13 @@ Ya con esto tendríamos configurada la conexión a nuestro servidor por FTP, sol
 
 Para hacer deploy seguimos nuestro flujo de trabajo normal usando git, en el momento que necesitemos subir los archivos modificados al servidor solo debemos ejecutar este comando en la terminal:
 
-`git ftp push`
+```bash
+git ftp push
+```
 
 Con esto ya tendremos nuestros archivos en el servidor.
 
 **Recomendación**
-
-> Para los que no usan aún git visitar el curso de Git/GitHub que hay en la plataforma [Platzi](https://medium.com/u/5281ef6d82cd).
 
 > Mantener siempre el mismo flujo de trabajo y no modificar archivos directamente al servidor.
 
