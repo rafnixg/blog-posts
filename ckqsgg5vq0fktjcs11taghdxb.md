@@ -51,7 +51,8 @@ Luego de clonar nuestro repositorio procedemos a crear nuestro archivo README us
 Ya con una idea de lo que queremos hacer, escribimos nuestro archivo y subimos estos cambios a GitHub
 
 ```bash
-git add README.md $ git commit -m "[IMP] Mejora de nuestro README"
+git add README.md
+git commit -m "[IMP] Mejora de nuestro README"
 git push -u origin master
 ```
 
