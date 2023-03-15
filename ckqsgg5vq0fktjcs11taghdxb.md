@@ -4,6 +4,7 @@ datePublished: Tue Jul 28 2020 21:35:14 GMT+0000 (Coordinated Universal Time)
 cuid: ckqsgg5vq0fktjcs11taghdxb
 slug: actualiza-tu-perfil-de-github-con-readme-y-github-actions-parte-1
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/MAYEkmn7G6E/upload/d6bf961a729b1007baf04287606f07d0.jpeg
+tags: python, readme, github-actions
 
 ---
 
@@ -36,7 +37,9 @@ En mi caso ya me indica que tengo este repositorio creado, pero ademas se ve un 
 
 En esta parte del proceso tendremos que empezar clonando nuestro repositorio y editar nuestro archivo README con la información que quisiéramos mostrar, para esto usaremos el siguiente comando de Git:
 
-$ git clone https://github.com/tu\_username/tu\_username.git
+```bash
+git clone https://github.com/tu_username/tu_username.git
+```
 
 Luego de clonar nuestro repositorio procedemos a crear nuestro archivo README usando Markdown, yo en esta parte del proceso use varias referencias para tomar ideas y armar algo que me gustara, les dejo por acá los enlaces para que las visiten y tomen ideas.
 
@@ -47,11 +50,14 @@ Luego de clonar nuestro repositorio procedemos a crear nuestro archivo README us
 
 Ya con una idea de lo que queremos hacer, escribimos nuestro archivo y subimos estos cambios a GitHub
 
-$ git add README.md $ git commit -m "\[IMP\] Mejora de nuestro README" $ git push -u origin master
+```bash
+git add README.md $ git commit -m "[IMP] Mejora de nuestro README"
+git push -u origin master
+```
 
 Con esto ya tendremos nuestro archivo README desplegado en nuestro perfil de GitHub.
 
-En la segunda entrega veremos como poder obtener datos de una API como la Ghost o Dev.to y actualizar nuestro archivo README usando Python.
+En la segunda entrega veremos como poder obtener datos de un RSS de servicios como Ghost, Dev.to o [https://hashnode.com/](https://hashnode.com/) y actualizar nuestro archivo README usando Python.
 
 Siguiente de esta serie: [Escribir un script en python para crear nuestro README dinámico](http://rafnixg.dev/actualiza-tu-perfil-de-github-con-readme-y-github-actions-part-2/)
 
