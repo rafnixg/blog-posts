@@ -12,7 +12,7 @@ tags: cloudflare, nginx, self-hosted, homelab, proxmox
 
 ## Introducción
 
-En mi camino como desarrollador y entusiasta de la tecnología, he construido un homelab server en mi casa para experimentar con nuevas tecnologías y aprender de forma autodidacta. Mi homelab server es un servidor casero donde puedo ejecutar diferentes servicios y herramientas.
+En mi camino como desarrollador y entusiasta de la tecnología, he construido un homelab server en mi casa para experimentar con nuevas tecnologías y aprender de forma autodidacta. Es un servidor casero donde puedo ejecutar diferentes servicios y herramientas en un ambiente controlado.
 
 En este artículo, compartiré con ustedes los servicios que actualmente estoy corriendo en mi homelab server. Estos servicios incluyen virtualización con Proxmox, contenedores con LXC y Docker, una plataforma como servicio (PaaS) llamada Coolify, un backend as a service (BaaS) llamado Appwrite, Pi-hole para bloquear anuncios y rastreadores, Plausible para analizar las métricas de mi sitio, y mucho más. Si estás interesado en crear tu propio homelab server o simplemente deseas conocer qué servicios estoy usando, sigue leyendo para conocer más.
 
