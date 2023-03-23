@@ -1,10 +1,10 @@
 ---
-title: "Crea tu blog con python usando GitHub Pages y Pelican"
+title: "Crea tu blog con Python usando GitHub Pages y Pelican"
 datePublished: Sat May 18 2019 19:06:00 GMT+0000 (Coordinated Universal Time)
 cuid: ckqsggcm30fkxjcs19b51d10m
 slug: crea-tu-blog-con-python-usando-github-pages-y-pelican
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/xG8IQMqMITM/upload/31f1eeceb26639f0f17a965f76ce52f3.jpeg
-tags: python, pelican
+tags: python, pelican, githubpages
 
 ---
 
