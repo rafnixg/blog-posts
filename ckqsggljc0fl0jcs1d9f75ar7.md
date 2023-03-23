@@ -3,7 +3,7 @@ title: "Deploy usando GIT-FTP"
 datePublished: Tue Jun 26 2018 18:57:00 GMT+0000 (Coordinated Universal Time)
 cuid: ckqsggljc0fl0jcs1d9f75ar7
 slug: deploy-usando-git-ftp
-cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/MAYEkmn7G6E/upload/d6bf961a729b1007baf04287606f07d0.jpeg
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/2kH-6T6x_0I/upload/5576b8e4331eae994bc98b40c2d4e7e6.jpeg
 tags: ftp, git
 
 ---
