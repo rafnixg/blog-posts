@@ -10,11 +10,11 @@ tags: python, readme, github-actions
 
 Esta sera una serie de 3 Post:
 
-* [Crear nuestro README en GitHub](http://rafnixg.dev/actualiza-tu-perfil-de-github-con-readme-y-github-actions-part-1/)
+* [Crear nuestro README en GitHub](http://blog.rafnixg.dev/actualiza-tu-perfil-de-github-con-readme-y-github-actions-parte-1)
     
-* [Escribir un script en python para crear nuestro README dinámico](http://rafnixg.dev/actualiza-tu-perfil-de-github-con-readme-y-github-actions-part-2/)
+* [Escribir un script en python para crear nuestro README dinámico](https://blog.rafnixg.dev/actualiza-tu-perfil-de-github-con-readme-y-github-actions-parte-2)
     
-* [Implementar GitHub Actions para automatizar nuestro README](http://rafnixg.dev/actualiza-tu-perfil-de-github-con-readme-y-github-actions-part-3/)
+* [Implementar GitHub Actions para automatizar nuestro README](https://blog.rafnixg.dev/actualiza-tu-perfil-de-github-con-readme-y-github-actions-parte-3)
     
 
 Acá te dejo una mirada de como quedo [mi perfil](https://github.com/rafnixg), espero me dejes una estrella :D
@@ -60,6 +60,6 @@ Con esto ya tendremos nuestro archivo README desplegado en nuestro perfil de Git
 
 En la segunda entrega veremos como poder obtener datos de un RSS de servicios como Ghost, Dev.to o [https://hashnode.com/](https://hashnode.com/) y actualizar nuestro archivo README usando Python.
 
-Siguiente de esta serie: [Escribir un script en python para crear nuestro README dinámico](http://rafnixg.dev/actualiza-tu-perfil-de-github-con-readme-y-github-actions-part-2/)
+Siguiente de esta serie: [Escribir un script en python para crear nuestro README dinámico](https://blog.rafnixg.dev/actualiza-tu-perfil-de-github-con-readme-y-github-actions-parte-2)
 
 Gracias por leerme! los espero por mi twitter [@rafnixg](https://rafnixg@gmail.com)
