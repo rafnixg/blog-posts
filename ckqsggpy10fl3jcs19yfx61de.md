@@ -4,6 +4,7 @@ datePublished: Wed Jun 28 2017 18:48:00 GMT+0000 (Coordinated Universal Time)
 cuid: ckqsggpy10fl3jcs19yfx61de
 slug: ejecutar-codigo-javascript-en-sublime-text
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/_SgRNwAVNKw/upload/7d8d6f0cddfc178056b2e83a56d528db.jpeg
+tags: javascript, sublime-text
 
 ---
 
