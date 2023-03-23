@@ -10,7 +10,7 @@ tags: python, readme, github-actions-1
 
 La idea principal es poder generar un archivo README.md con una lista de los últimos 5 post de este Blog, pero en esencia este código con muy poco o hasta nula modificacion en algunos casos puede servir para otros servicios como [dev.to](https://dev.to/), [Medium](https://medium.com/) o [hashnode.com](https://hashnode.com/).
 
-Ya teniendo nuestro archivo README.md creado en el post [Actualiza tu perfil de GitHub con README y Github Actions - Parte 1](https://blog.rafnixg.dev/actualiza-tu-perfil-de-github-con-readme-y-github-actions-part-1/) , nos ubicamos en la carpeta de nuestro proyecto y empezaremos creamos una copia de nuestro archivo pero con extensión **.template**, quedándonos algo como esto: README.md.template, este sera el archivo que usaremos como base para generar nuestro README.md
+Ya teniendo nuestro archivo README.md creado en el post [Actualiza tu perfil de GitHub con README y Github Actions - Parte 1](http://blog.rafnixg.dev/actualiza-tu-perfil-de-github-con-readme-y-github-actions-parte-1) , nos ubicamos en la carpeta de nuestro proyecto y empezaremos creamos una copia de nuestro archivo pero con extensión **.template**, quedándonos algo como esto: README.md.template, este sera el archivo que usaremos como base para generar nuestro README.md
 
 Luego editamos la sección de "Latest post (Spanish)" sustituyendo nuestros post estáticos con este código en Jinja2, que nos ayuda a iterar sobre una lista de post.
 
@@ -28,7 +28,7 @@ Ahora necesitamos el endpoint a el que consultaremos para obtener nuestras lista
 
 Acá pudimos haberlo hecho de muchas maneras distintas, se pudo haber hecho el cambio de XML a JSON usando Python, mi idea era hacerlo lo mas simple posible, si tienes una idea mejor la espero en los comentarios o un Pull Request, ya con esto aclarado podemos continuar xD.
 
-Teniendo nuestro endpoint listo procederemos a crear nuestro script en Python, por lo que primero debemos preparar, es nuestro entorno virtual que nos ayude a aislar nuestras dependencias para este proyecto, podemos hacer uso de Pipenv del cual tengo un tutorial por acá ([Entornos virtuales en python usando Pipenv](http://rafnixg.dev/entornos-virtuales-en-python-usando-pipenv/)), pero en este caso lo haremos de la siguiente manera ya que es la mas comun.
+Teniendo nuestro endpoint listo procederemos a crear nuestro script en Python, por lo que primero debemos preparar, es nuestro entorno virtual que nos ayude a aislar nuestras dependencias para este proyecto, podemos hacer uso de Pipenv del cual tengo un tutorial por acá ([Entornos virtuales en python usando Pipenv](https://blog.rafnixg.dev/entornos-virtuales-en-python-usando-pipenv)), pero en este caso lo haremos de la siguiente manera ya que es la mas comun.
 
 ```bash
 python3 -m venv env 
@@ -109,4 +109,4 @@ En la tercera y ultima parte veremos como automatizar la ejecución de nuestro s
 
 Gracias por leerme, los espero por twitter [@rafnixg](https://twitter.com/rafnixg) y por mi GitHub [rafnixg](https://github.com/rafnixg/rafnixg)
 
-Siguiente publicación de esta serie: [Actualiza tu perfil de GitHub con README y GitHub Actions - Parte 3](http://rafnixg.dev/actualiza-tu-perfil-de-github-con-readme-y-github-actions-part-3/)
+Siguiente publicación de esta serie: [Actualiza tu perfil de GitHub con README y GitHub Actions - Parte 3](https://blog.rafnixg.dev/actualiza-tu-perfil-de-github-con-readme-y-github-actions-parte-3)
