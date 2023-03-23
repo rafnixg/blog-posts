@@ -10,9 +10,9 @@ tags: python, readme, github-actions-1
 
 Si aun no has leído las otras dos partes te invito a que las revises:
 
-* [Crear nuestro README en GitHub](http://rafnixg.dev/actualiza-tu-perfil-de-github-con-readme-y-github-actions-part-1/)
+* [Crear nuestro README en GitHub](https://blog.rafnixg.dev/actualiza-tu-perfil-de-github-con-readme-y-github-actions-parte-1)
     
-* [Escribir un script en python para crear nuestro README dinámico](http://rafnixg.dev/actualiza-tu-perfil-de-github-con-readme-y-github-actions-part-2/)
+* [Escribir un script en python para crear nuestro README dinámico](https://blog.rafnixg.dev/actualiza-tu-perfil-de-github-con-readme-y-github-actions-parte-2)
     
 
 En esta tercera entrega vamos a automatizar mediante GitHub Actions la generación de nuestro archivo README.md ejecutando de forma programada nuestro script de Python que creamos en la publicación anterior.
