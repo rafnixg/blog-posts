@@ -4,11 +4,11 @@ datePublished: Sun May 12 2019 00:39:00 GMT+0000 (Coordinated Universal Time)
 cuid: ckqsgggyq0g39i2s1dbv5b2mg
 slug: entornos-virtuales-en-python-usando-pipenv
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/5uU8HSpfwkI/upload/0acf143138e277fd30eb5845a2ee200b.jpeg
-tags: python, pipenv
+tags: python, pipenv, virtual-environment
 
 ---
 
-Cuando iniciamos en el desarrollo con Python muchas veces no nos damos cuenta del dolor de cabeza que es mantener varios proyectos con diferentes versiones de dependencias en nuestra entorno de desarrollo local, a medida que vamos evolucionando vamos adquiriendo nuevas herramientas que mejoren nuestro flujo de trabajo, como el uso de entornos virtuales o manejadores de paquetes, entre otras, Pipenv es una de estas herramientas que nos ayudan mucho a integrar y mejorar nuestros flujos en Python, tanto es así que su eslogan por así decirlo es *"Python Development Workflow for Humans"*.
+Cuando iniciamos en el desarrollo con Python muchas veces no nos damos cuenta del dolor de cabeza que es mantener varios proyectos con diferentes versiones de dependencias en nuestra entorno de desarrollo local, a medida que vamos evolucionando vamos adquiriendo nuevas herramientas que mejoren nuestro flujo de trabajo, como el uso de entornos virtuales o manejadores de paquetes, entre otras, Pipenv es una de estas herramientas que nos ayudan mucho a integrar y mejorar nuestros flujos en Python, tanto es así que su eslogan por así decirlo es `"Python Development Workflow for Humans".`
 
 Esta herramienta básicamente nos ayuda a optimizar nuestro flujo de desarrollo unificando *pip* y *virtualenv* en una sola herramienta que funciona por linea de comandos *(Terminal)*, lo que nos daria un entorno aislado en el cual instalar nuestras dependencia y luego replicar este mismo entorno en otra maquina gracias a el archivo que se genera [**Pipfile**](https://github.com/pypa/pipfile), que viene a ser el sustituto del archivo que genera pip **requirements.txt**
 
@@ -100,5 +100,7 @@ A lo largo de este post hemos visto como el flujo de trabajo se puede optimizar 
 
 Si deseas que siga publicando contenido sobre entornos virtuales, pip, o explique más a fondo los ficheros `Pipfile`o `Pipfile.lock`, que otros comandos puede ejecutar Pipenv, solo házmelo saber en un comentario o a través de mi cuenta twitter [@rafnixg](https://twitter.com/rafnixg)
 
-**Referencias**  
+### **Referencias**
+
+###   
 [Documentación Pipenv](https://pipenv-es.readthedocs.io/es/latest/)
